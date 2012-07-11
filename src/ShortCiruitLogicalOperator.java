@@ -7,16 +7,15 @@
  *
  * @author it corner
  */
-public class HelloWorld {
+public class ShortCiruitLogicalOperator {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        int x = 0;
+System.out.println((x != 0) && ((10 / x) > 1)); //false
+
         // TODO code application logic here
-        System.out.println("Hello World");
-        System.out.println("Programming is fun");
-        
-        
     }
 }

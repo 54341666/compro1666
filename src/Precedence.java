@@ -7,16 +7,16 @@
  *
  * @author it corner
  */
-public class HelloWorld {
+public class Precedence {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        System.out.println(1 + 2 * 3); // 7
+System.out.println((1 + 2) * 3); // 9
+System.out.println(1 + (2 * 3)); // 7
+
         // TODO code application logic here
-        System.out.println("Hello World");
-        System.out.println("Programming is fun");
-        
-        
     }
 }

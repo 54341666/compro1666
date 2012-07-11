@@ -7,16 +7,21 @@
  *
  * @author it corner
  */
-public class HelloWorld {
+public class ArrayPrinter {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        System.out.println("Hello World");
-        System.out.println("Programming is fun");
-        
-        
-    }
+        int numbers[] = {1, 2, 3, 5, 8, 13};
+int index, initial = 0;
+for (index = initial; index <numbers.length; index++) {
+System.out.println("numbers[" + index + "] = " +
+numbers[index]);
+ }
 }
+ 
+
+        // TODO code application logic here
+    }
+

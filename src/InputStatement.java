@@ -7,16 +7,18 @@
  *
  * @author it corner
  */
-public class HelloWorld {
+import java.util.Scanner;
+public class InputStatement {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+       
+    Scanner in = new Scanner(System.in);
+    System.out.print("Please enter the number of bottles: ");
+    int bottles = in.nextInt();
+
         // TODO code application logic here
-        System.out.println("Hello World");
-        System.out.println("Programming is fun");
-        
-        
     }
 }

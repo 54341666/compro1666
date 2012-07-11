@@ -7,16 +7,19 @@
  *
  * @author it corner
  */
-public class HelloWorld {
+public class RelationlOperator {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        int a = 0, b = 1;
+System.out.println(a == b); // false
+System.out.println(a != b); // true
+System.out.println(a < b); // true
+System.out.println(a <= b); // true
+System.out.println(a >= b); // false
+
         // TODO code application logic here
-        System.out.println("Hello World");
-        System.out.println("Programming is fun");
-        
-        
     }
 }

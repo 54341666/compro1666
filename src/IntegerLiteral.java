@@ -7,16 +7,16 @@
  *
  * @author it corner
  */
-public class HelloWorld {
+public class IntegerLiteral {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        System.out.println(12);
+        System.out.println(012);
+        System.out.println(0x12);
+
         // TODO code application logic here
-        System.out.println("Hello World");
-        System.out.println("Programming is fun");
-        
-        
     }
 }

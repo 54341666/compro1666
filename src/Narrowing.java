@@ -7,16 +7,16 @@
  *
  * @author it corner
  */
-public class HelloWorld {
+public class Narrowing {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        int i = 32768;
+short s = (short) i;
+System.out.println("i = " + i + ", s = " + s); // i = 32768, s = -32768
+
         // TODO code application logic here
-        System.out.println("Hello World");
-        System.out.println("Programming is fun");
-        
-        
     }
 }

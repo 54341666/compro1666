@@ -7,16 +7,15 @@
  *
  * @author it corner
  */
-public class HelloWorld {
+public class UnicodeString {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+            String ข้อความ = "สวัสดี";
+System.out.println(ข้อความ);
+
         // TODO code application logic here
-        System.out.println("Hello World");
-        System.out.println("Programming is fun");
-        
-        
     }
 }

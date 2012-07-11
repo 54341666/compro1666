@@ -7,16 +7,21 @@
  *
  * @author it corner
  */
-public class HelloWorld {
+public class ConitionOperator {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        System.out.println("Hello World");
-        System.out.println("Programming is fun");
-        
-        
+        if(args.length == 2){
+ int a = Integer.parseInt(args[0]);
+int b = Integer.parseInt(args[1]);
+System.out.println((a>b)? a : b);
+        }
     }
 }
+
+        
+        // TODO code application logic here
+    
+    
